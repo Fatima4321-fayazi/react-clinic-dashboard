@@ -1,0 +1,45 @@
+/* ===== Global reset & base styles ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Brand colors used across the whole app */
+  --pink: #e6007e;
+  --purple: #7b2ff7;
+  --gradient: linear-gradient(90deg, var(--pink), var(--purple));
+  --dark-navy: #16213e;
+  --text-dark: #1f2937;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --bg-light: #f5f6fa;
+  --white: #ffffff;
+  --green: #16a34a;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  font-family: inherit;
+}
